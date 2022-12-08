@@ -1,0 +1,237 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  box-sizing: border-box;
+}
+:root {
+  --orange: #f16718;
+  --brick: #ff9b62;
+  --black: #162542;
+  --grey: #7b8bad;
+  --steam: #e8eff2;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3.8194vw 11.4583vw 0 11.4583vw;
+  overflow-x: hidden;
+}
+.tab-image-1 {
+  display: none;
+}
+h1 {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 3.8888vw;
+  line-height: 3.8888vw;
+  color: var(--black);
+  width: 30.9027vw;
+  height: 7.7777vw;
+  margin-bottom: 1.666vw;
+  text-transform: uppercase;
+}
+h2 {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 2.2222vw;
+  line-height: 2.5vw;
+  color: var(--black);
+  text-transform: uppercase;
+  width: 255px;
+}
+h3 {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 1.666vw;
+  line-height: 1.9444vw;
+  color: var(--black);
+  text-transform: uppercase;
+  margin-bottom: 1.666vw;
+}
+p {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.111vw;
+  line-height: 1.8055vw;
+  color: var(--grey);
+}
+header {
+  height: 4.1666vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.logo {
+  height: 2.777vw;
+  width: 2.777vw;
+}
+button {
+  height: 4.0277vw;
+  width: 12.1527vw;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  cursor: pointer;
+}
+.button-1 {
+  background: var(--steam);
+}
+.button-1:hover {
+  background: var(--black);
+}
+
+.button-1 p {
+  color: var(--black);
+  font-weight: 700;
+}
+.button-1:hover p {
+  color: white;
+}
+.button-2 {
+  background: var(--orange);
+}
+.button-2:hover {
+  background: var(--brick);
+}
+.button-2 p {
+  color: white;
+  font-weight: 700;
+}
+
+.container-1 {
+  margin-top: 5.7638vw;
+  display: grid;
+  grid-template-columns: 50% 50%;
+
+  height: 33.888vw;
+}
+
+.left-column-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-top: 2.986vw;
+}
+.left-column-1-p {
+  width: 30.9027vw;
+  height: 5.4166vw;
+  margin-bottom: 3.8888vw;
+}
+.button-2-text {
+  height: 4.0277vw;
+  width: 23.75vw;
+  margin-bottom: 8.125vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.button-2-text p {
+  font-weight: 700;
+}
+.desktop-image-1 {
+  width: 100%;
+  height: 100%;
+  border-radius: 1.3888vw;
+}
+.container-2 {
+  height: 37.777vw;
+  width: 100%;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.two-images {
+  display: flex;
+  flex-direction: row;
+  height: 33.611vw;
+  padding: 2.083vw 0;
+}
+.image-2-container {
+  background-color: var(--orange);
+  border-radius: 1.3888vw;
+  width: 17.8472vw;
+}
+.desktop-image-2 {
+  width: 17.8472vw;
+  height: 33.611vw;
+  border-radius: 1.3888vw;
+
+  mix-blend-mode: multiply;
+}
+.desktop-image-3 {
+  width: 29.861vw;
+  height: 33.611vw;
+  margin-left: 2.083vw;
+  border-radius: 1.3888vw;
+}
+.text-middle {
+  width: 17.7083vw;
+  height: 18.4027vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.text-middle p {
+  padding-top: 1.875vw;
+  width: 17.7083vw;
+}
+.text-middle h2 {
+  width: 17.7083vw;
+}
+.container-2-tab {
+  display: none;
+}
+.container-3 {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+
+  width: 100%;
+  height: 22.4305;
+
+  margin-top: 12.083vw;
+  margin-bottom: 13.4027vw;
+}
+.column-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-right: 2.083vw;
+}
+.icon {
+  width: 4.5138vw;
+  height: 4.5138vw;
+  background: var(--orange);
+  border-radius: 0.5555vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3.333vw;
+}
+footer {
+  margin-bottom: 2.7083vw;
+}
+.cube-1 {
+  position: absolute;
+  top: 13.61vw;
+  left: 90.625vw;
+}
+.cube-2 {
+  position: absolute;
+  top: 65.972vw;
+  right: 90.625vw;
+}
